@@ -2,7 +2,7 @@
 FROM python:3.6
 
 # set the working directory in the container
-WORKDIR /
+WORKDIR /code
 
 # copy the dependencies file to the working directory
 COPY requirements.txt .
