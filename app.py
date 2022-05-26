@@ -7,7 +7,7 @@ def hello_world():
     return "Hello Flask,I am hello_world!"
 
 @app.route("/hello")
-def hello():
+def test():
     return "hello world!"
 
 
