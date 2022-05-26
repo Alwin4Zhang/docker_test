@@ -4,11 +4,11 @@ pipeline {
         stage('Build') { 
             agent {
                 docker {
-                    image 'python:2-alpine' 
+                    image 'python:3.6' 
                 }
             }
             steps {
-                sh 'pip install -r requirements.txt'
+                sh 'sudo pip install -r requirements.txt'
                 sh 'python app.py' 
             }
         }
