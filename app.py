@@ -11,7 +11,7 @@ def test():
     return "hello world!"
 
 @app.route("/test")
-def test():
+def test2():
     return "hello test!"
 
 if __name__ == '__main__':
